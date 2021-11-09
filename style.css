@@ -1,14 +1,16 @@
 body {
-    background-color: rgb(28, 165, 135);
+    background-color: #0770A3;
     font-family: 'M PLUS Rounded 1c', sans-serif;
 }
 
 h1 {
     font-family: 'M PLUS Rounded 1c', sans-serif;
+    text-align: center;
 }
 
-h2 {
+p {
     font-family: 'M PLUS Rounded 1c', sans-serif;
+    text-align: center;
 }
 
 h4 {
@@ -25,5 +27,8 @@ h4 {
 }
 
 .signupform {
+    background-color: grey;
     border: 2px solid black;
+    padding-left: 1.5%;
+    padding-bottom: 1.5%;
 }
