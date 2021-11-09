@@ -49,11 +49,14 @@ h4 {
 	box-shadow: 0 5px #666;
 	transform: translateY(4px);
   }
-}
   
 .signupform {
     background-color: grey;
     border: 2px solid black;
     padding-left: 1.5%;
     padding-bottom: 1.5%;
+}
+
+.RMITLOGO {
+    width: 20%;
 }
