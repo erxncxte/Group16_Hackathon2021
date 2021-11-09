@@ -1,0 +1,17 @@
+body {
+    background-color: rgb(28, 165, 135);
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+}
+
+h1 {
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+}
+
+.grid-container {
+	display: grid;
+	text-align: center;
+	grid-template-columns: auto auto auto auto auto auto auto;
+	grid-row-gap: 50px;
+	grid-column-gap: 50px;
+	font-size: 30px;
+}
