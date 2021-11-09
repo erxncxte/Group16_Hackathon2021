@@ -1,6 +1,7 @@
 body {
     background-color: rgb(28, 165, 135);
     font-family: 'M PLUS Rounded 1c', sans-serif;
+	text-align: center;
 }
 
 h1 {
@@ -23,3 +24,26 @@ h4 {
 	grid-row-gap: 25px;
 	grid-column-gap: 10px;
 }
+
+.button {
+	display: inline-block;
+	padding: 15px 25px;
+	font-size: 20px;
+	cursor: pointer;
+	text-align: center;
+	text-decoration: none;
+	outline: none;
+	color: #fff;
+	background-color: #fd1b1b;
+	border: none;
+	border-radius: 15px;
+	box-shadow: 0 9px #999;
+  }
+  
+  .button:hover {background-color: #9b1717}
+  
+  .button:active {
+	background-color: #9b1313;
+	box-shadow: 0 5px #666;
+	transform: translateY(4px);
+  }
